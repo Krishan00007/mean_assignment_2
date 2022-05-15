@@ -1,2 +1,2 @@
 # mean_assignment_2
-Second mean assignment     Registration and login form using mean
+To construct a simple login page web application to authenticate users using MEAN stack.
