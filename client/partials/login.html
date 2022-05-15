@@ -3,9 +3,10 @@
   <div ng-show="error" class="alert alert-danger">{{errorMessage}}</div>
   <form class="form" ng-submit="login()">
     <div class="form-group">
-      <label>Username</label>
+      <label>Email</label>
       <input
-        type="text"
+        type="email"
+        placeholder="name@example.com"
         class="form-control"
         name="username"
         ng-model="loginForm.username"
@@ -16,6 +17,7 @@
       <label>Password</label>
       <input
         type="password"
+        placeholder="Password..."
         class="form-control"
         name="password"
         ng-model="loginForm.password"
